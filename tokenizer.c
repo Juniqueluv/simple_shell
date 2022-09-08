@@ -112,5 +112,4 @@ int count_token(char *line, const char *delimiter)
 	for (i = 0; token != NULL; i++)
 		token = new_strtok(NULL, delimiter);
 	free(str);
-	return (i);
 }

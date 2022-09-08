@@ -55,6 +55,7 @@ char **find_key(char **env, char *key)
 		for (j = 0; j < len; j++)
 			if (key[j] != env[i][j])
 				break;
+
 		if (j == len && env[i][j] == '=')
 			return (&env[i]);
 	}
