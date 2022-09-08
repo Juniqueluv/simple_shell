@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 /***** RETURNS A POINTER TO A NEW STRING ******/
 /**
  * _strdup - returns pointer to new mem alloc space which contains copy
@@ -88,7 +87,6 @@ char *_strcat(char *strc1, char *strc2)
 	newstring[len1 + len2] = '\0';
 	return (newstring);
 }
-
 
 /*** WRITES STRING TO STDOUT ***/
 /**
